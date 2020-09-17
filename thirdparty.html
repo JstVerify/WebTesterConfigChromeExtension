@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JstVerify - Trust your application, JstVerify it!</title>
+    <link href="thirdparty.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="header">
+        <img src="images/jstverify.png" />
+    </div>
+    <p id="JstVerifyError"></p>
+    <p id="conf_message"></p>
+    <div id="JstVerifyContent">
+        <div id="content">
+            <div class="form-group">
+                <label for="InputEmail1">Email Address</label>
+                <input type="email" class="form-control" id="email_login" aria-describedby="emailHelp"
+                    placeholder="Enter email" data-pg-name="uname">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="InputPassword1">Password</label>
+                <input type="password" class="form-control" id="psw_login" placeholder="Password" name="psw"
+                    data-pg-name="psw">
+            </div>
+            <div class="form-group form-check"></div>
+        </div>
+        <div id="min-footer">
+            <button type="submit" class="loginbtn btn btn-pr" id="login_submit">Log in</button>
+            <p>Don't have a JstVerify Account? <a href="https://jstverify.com" target="_blank"
+                    style="font-size: 90%;">Sign up</a></p>
+            <br />
+        </div>
+    </div>
+    <script src="thirdparty.js"></script>
+    <script type="text/javascript" src="aws-sdk-2.521.0.min.js"></script>
+    <script type="text/javascript" src="amazon-cognito-identity.min.js"></script>
+</body>
+
+</html>
