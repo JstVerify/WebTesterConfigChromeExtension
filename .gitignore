@@ -7,8 +7,11 @@ bw_customer_image.jpg
 *.gcode
 
 _pgbackup
+node_modules
 mapped_urls
 
 .aws-sam
 
 pinegrow.json
+package-lock.json
+package.json
