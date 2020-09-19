@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "JstVerify - Trust your application: JstVerify it!",
+  "name": "JstVerify - WebTest Config Generator",
   "description": "Dynamically build a WebTest config simply by recording your actions while you interact with your site.",
   "homepage_url": "https://jstverify.com",
   "version": "1.0.0",

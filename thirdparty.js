@@ -1,8 +1,8 @@
 var debug = false;
 const activeIcon = 'active-96.png';
 const defaultIcon = 'default-96.png';
-const userPoolID = 'us-east-1_SFZNXOSX3'
-const clientID = '5vr513rek12l287if88cvv5q0g'
+const userPoolID = 'us-east-1_L33hJOAW6'
+const clientID = '3ckq53fp3hfspmao5rd7rum43h'
 var currentIcon = defaultIcon;
 
 var loggedIn = false;
